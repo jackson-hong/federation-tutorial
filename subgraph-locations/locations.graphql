@@ -13,9 +13,4 @@ type Location @key(fields: "id") {
   description: String!
   "The location's main photo as a URL"
   photo: String!
-  reviews: [Review]
-}
-
-type Review @key(fields: "id") {
-  id: ID!
 }
